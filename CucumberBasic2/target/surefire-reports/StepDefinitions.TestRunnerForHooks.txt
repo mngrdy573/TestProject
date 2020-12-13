@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: StepDefinitions.TestRunnerForHooks
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 29.498 sec <<< FAILURE!
+ #2(check login functionality)  Time elapsed: 0.29 sec  <<< ERROR!
+java.lang.NullPointerException
+	at StepForHooks.HookDemoSteps.teardown2(HookDemoSteps.java:46)
+
+ #2(check login functionality)  Time elapsed: 0.292 sec  <<< ERROR!
+java.lang.NullPointerException
+	at StepForHooks.HookDemoSteps.teardown(HookDemoSteps.java:39)
+
